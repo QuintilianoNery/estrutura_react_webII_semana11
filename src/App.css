@@ -1,0 +1,121 @@
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px;
+  font-family: sans-serif;
+}
+
+.cabecalho {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cabecalho h1 {
+  color: #0b6e83;
+}
+
+.lista-cursos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+
+
+.curso-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .06);
+}
+
+.curso-card h3 {
+  margin: 0 0 8px;
+  color: #16202b;
+}
+
+.carga {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 10px;
+  background: #e6e6f7;
+  color: #0b6e83;
+  border-radius: 20px;
+  font-size: .85rem;
+}
+
+.modalidade {
+  display: inline-block;
+  margin-top: 12px;
+  margin-left: 8px;
+  padding: 4px 10px;
+  background: #0a1389;
+  color: #fff;
+  border-radius: 20px;
+  font-size: .85rem;
+}
+
+/* produtos */
+
+
+.vitrine {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.produto-card {
+  border: 1px solid #e3e3e3;
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+}
+
+.produto-card .thumb {
+  font-size: 48px;
+}
+
+.produto-card .preco {
+  font-weight: bold;
+  color: #1f7a30;
+  font-size: 1.15rem;
+}
+
+.produto-card .selo {
+  display: inline-block;
+  background: #e6f4ea;
+  color: #1f7a30;
+  font-size: .75rem;
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
+.produto-card .categoria {
+  display: inline-block;
+  background: #e6e6f7;
+  color: #0b6e83;
+  font-size: .85rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+  /* espaçamento */
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.produto-card button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  background: #0b6e83;
+  color: #fff;
+  cursor: pointer;
+}
+
+.selo-esgotado {
+  background: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  margin-left: 8px;
+}
